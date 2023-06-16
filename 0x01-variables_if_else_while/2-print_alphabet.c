@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 int main(void) {
-    int ja;
+    int i;
   
-    for (ja= a; ja<= z; ja++) {
-        putchar(ja);
+    for (i = 0; i < 26; i++) {
+        putchar(a + i);
     }
   
     putchar(n);
   
     return 0;
 }
+
