@@ -8,9 +8,9 @@
 int main(void){
 char lowercase, uppercase;
 for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
-purchar('%c ', lowercase);
+putchar('%c ', lowercase);
 for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
-purchar("%c ", uppercase);
-purchar("\n");
+putchar("%c ", uppercase);
+putchar("\n");
 return 0;
 }
