@@ -1,14 +1,13 @@
 #include <stdio.h>
 
 int main(void) {
-    int char;
+    int ja;
   
-    for (char= a; char<= z; char++) {
-        putchar(char);
+    for (ja= a; ja<= z; ja++) {
+        putchar(ja);
     }
   
     putchar(n);
   
     return 0;
 }
-
