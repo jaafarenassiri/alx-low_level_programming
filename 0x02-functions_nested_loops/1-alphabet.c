@@ -7,7 +7,7 @@ void print_alphabet(void) {
     
     for (i = 'a'; i <= 'z'; i++) 
     {
-        _putchar(i);
+        putchar(i);
     }
-    _putchar('\n'); // Add a newline after printing the alphabet
+    putchar('\n'); // Add a newline after printing the alphabet
 }
