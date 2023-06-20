@@ -3,16 +3,17 @@
 /**
  * print_alphabet - prints the alphabet
  *
- * Return : nothing.
+ * Return : nothing
  */
 void print_alphabet(void)
 {
-char i;
-  
-for (i = 'a'; i <= 'z'; i++) 
+char i = 'a';
+
+while (i <= 'z')
 {
-_putchar(i);
+_putchar (i);
+i++;
 }
-_putchar('\n'); 
-  
+
+_putchar('\n');
 }
