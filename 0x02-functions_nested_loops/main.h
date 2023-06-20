@@ -1,3 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-void 
+void print_alphabet(void);
+#endif
+
