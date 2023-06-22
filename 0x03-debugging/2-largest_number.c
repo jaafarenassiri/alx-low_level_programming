@@ -26,7 +26,7 @@ largest = c;
 }
 else 
 {
-putchar('equals');
+break
 }
 
 return (largest);
