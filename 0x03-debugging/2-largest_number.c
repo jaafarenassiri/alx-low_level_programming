@@ -26,7 +26,7 @@ largest = c;
 }
 else 
 {
-printf('equals');
+putchar('equals');
 }
 
 return (largest);
